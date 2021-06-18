@@ -3,21 +3,21 @@ import { Component } from 'react';
 class ClassComponent extends Component {
     render() {
         return (
-            <h1>This is a class Component</h1>
+            <h1>This is a simple class component</h1>
         )
     }
 }
 
 function FunctionComponent() {
     return (
-        <h1>This is a function Component</h1>
+        <h1>This is a simple function component</h1>
     );
 }
 
 function SampleOne() {
     return (
         <div>
-            <h1>Function and Class Components</h1>
+            <h1>Function and class component</h1>
             <hr />
             <ClassComponent />
             <FunctionComponent />
