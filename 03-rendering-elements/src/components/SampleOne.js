@@ -1,6 +1,6 @@
 import { Component } from 'react';
 
-class SampleOne extends Component {
+class Clock extends Component {
 
     constructor(props) {
         super(props);
@@ -37,6 +37,12 @@ class SampleOne extends Component {
                 <h1>Relógio: {this.state.currentTime}</h1>
             </div>
         );
+    }
+}
+
+class SampleOne extends Component {
+    render() {
+        return <Clock />;
     }
 }
 
