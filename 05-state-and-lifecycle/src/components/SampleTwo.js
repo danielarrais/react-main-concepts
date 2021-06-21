@@ -28,7 +28,6 @@ class ChangeState extends Component {
     }
 }
 
-
 class SampleTwo extends Component {
     render() {
         return (
