@@ -1,6 +1,9 @@
+import SimpleOne from './components/SampleOne'
+
 function App() {
   return (
     <div>
+      <SimpleOne />
     </div>
   );
 }
