@@ -134,10 +134,3 @@ this.setState({
   [name]: value
 });
 ```
-
-## Controlled Input Null Value
-
-## Alternatives to Controlled Components
-
-## Fully-Fledged Solutions
-
